@@ -9,12 +9,22 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "ioredis": "^5.8.2",
+    "jsonwebtoken": "^9.0.2",
+    "konva": "^10.0.12",
+    "lucide-react": "^0.554.0",
+    "mongodb": "^7.0.0",
+    "nanoid": "^5.1.6",
     "next": "16.0.3",
     "react": "19.2.0",
-    "react-dom": "19.2.0"
+    "react-dom": "19.2.0",
+    "react-konva": "^19.2.0",
+    "zod": "^4.1.12",
+    "zustand": "^5.0.8"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
+    "@types/jsonwebtoken": "^9.0.10",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
