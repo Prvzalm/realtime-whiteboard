@@ -80,7 +80,9 @@ export function WhiteboardCanvas({
   const editShortcutRef = useRef(editShortcutToken);
   const stickyRefs = useRef<Record<string, KonvaNode | null>>({});
   const isSpectator = mode === "spectator";
-  const realtimeRole = isSpectator ? "spectator" : "editor";
+  const realtimeRole: "editor" | "spectator" = isSpectator
+    ? "spectator"
+    : "editor";
   const broadcastName = presenceAlias ?? userName;
 
   const shapes = useBoardStore((state) => state.shapes);
